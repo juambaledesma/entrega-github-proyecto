@@ -187,24 +187,45 @@ aside {
 .bodytalleres {
     background-color: blanchedalmond;
 }
-
-.secciontaller {
+.box {
+    border-radius: 6px;
+    width: 80px;
+    height: 40px;
+    margin: 50px auto;
+    background-color: mediumaquamarine;
+    transition: all 2s;
     display: flex;
-    margin: 20px;
-    
-}
-.secciontaller div img {
-    width: 80%;
-    object-fit: cover;
-    padding: 150px 100px 0px 100px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
-.loremtaller {
-    font-family: 'Poppins', sans-serif;
-    padding: 300px 50px 0px 50px;
-    display: flex;
+.box:hover {
+    transform: scale(6);
 }
+
+.square-one, .square-two {
+    border-radius: 4px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+}
+
+.square-one {
+    background-color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.square-two {
+    background-color: slateblue;
+    transition: all .8s;
+}
+
+.square-two:hover {
+    transform: translate(60px, 60px);
+    opacity: 0.1;
+}
+
 /*fin talleres.html*/
 
 /*escriben.html*/
